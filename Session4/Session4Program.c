@@ -34,7 +34,7 @@ int main(int argc, char* argv[]){
     case 1 : return EXIT_FAILURE;
     case 2 : readFile(argv[1], A, false);
            break;
-    case 3 :
+    case 3 : insertInOrder(A, 0)
            break;
     default: return EXIT_FAILURE;
   }
